@@ -30,7 +30,7 @@ jobs:
         tf_actions_version: 1.2.3
         tf_actions_subcommand: 'plan'
     # Here we run terraform apply
-    - name: 'Terraform Plan'
+    - name: 'Terraform Apply'
       uses: hashicorp/terraform-github-actions@master
       with:
         tf_actions_version: 1.2.3
