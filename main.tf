@@ -6,9 +6,7 @@ terraform {
  }
 }
     
-provider "aws" {
-  region = "${secrets.AWS_REGION}"
-}
+provider "aws" {}
 
 terraform {
   backend "s3" {
