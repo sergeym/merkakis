@@ -5,6 +5,7 @@ name: Deploy Bot
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: prod
     steps:
     # This github actions checks out the code of our repo
     # so that the files are available to the action
