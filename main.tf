@@ -39,7 +39,6 @@ resource "aws_iam_role_policy_attachment" "lambda_policy" {
    policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }
 
-
 resource "aws_dynamodb_table" "merkakis_mentions_table" {
  name = "merkakis-mentions-table"
  billing_mode = "PROVISIONED"
